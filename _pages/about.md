@@ -7,4 +7,11 @@ redirect_from:
   - /about.html
 ---
 
+
+
+<img src="/images/kmountain2.jpg" class="right-image" style="width: 60%; min-width: 330px;"> 
+
+
 Hello There
+
+

@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Luke P. Corcos"
 title_separator          : "-"
 name                     : &name "Luke Corcos"
-description              : &description "personal description"
+description              : &description "Luke Corcos's personal website"
 url                      : https://lpcorcos.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lpcorcos/lpcorcos.github.io"
@@ -22,14 +22,17 @@ repository               : "lpcorcos/lpcorcos.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "elbert.jpg"
   name             : "Luke P. Corcos Ph.D."
   pronouns         : # example: "she/her"  
-  bio              : "Stock market and PDEs"
+  bio              : "Stocks and PDEs"
   location         : #"Earth"
-  employer         : "UC Berkeley"
+  employer         : #"UC Berkeley"
+  phdInst          : UC Berkeley (Ph.D.)
+  UGInst           : UMD College Park (B.Sc.)
   uri              : # URL
   email            : "lucorcos@gmail.com" 
+  phone            : #
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -59,7 +62,7 @@ author:
   keybase          : # Username
   instagram        :  'lukecorcosfc'
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         :  luke-corcos-32b9a448
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -83,6 +86,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  phd:
+    title: 'Ph.D. Thesis'  
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
