@@ -11,7 +11,7 @@ redirect_from:
 
 I am an active stock trader and have independently researched the market since 2016. 
 My AAR since 2020 is 32%. 
-You can follow my stock and crypto ideas on my [Blog](/stocks/).
+You can follow my stock and crypto ideas on my [blog](/stocks/).
 
 
 I received my Ph.D. in [Applied Mathematics](https://math.berkeley.edu/home) from the University of California Berkeley. During that time, 
