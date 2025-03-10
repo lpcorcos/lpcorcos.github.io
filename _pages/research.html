@@ -5,3 +5,135 @@ permalink: /research/
 author_profile: false
 ---
 
+<p style="text-align: justify; text-justify: inter-word;">
+Broadly, my research interests include mathematical modeling and scientific computing. 
+During my Ph.D., I specialized in numerical partial differential equations (PDEs), and 
+developed high-order accurate algorithms for multi-physics interface problems. 
+</p>
+
+
+<h2>Discontinuous Galerkin Methods</h3>
+<p style="text-align: justify; text-justify: inter-word;">
+As part of my work on multi-physics multi-layer coating flows (see below), 
+I developed local discontinuous Galerkin methods (LDG) for Poisson problems with Robin boundary conditions. 
+For this, consider a \(d\)-dimensional domain \( \Omega \subset \mathbb{R}^d \), with Robin boundary 
+conditions applied along the boundary \( \Gamma_R \), we wish to find \(u:\Omega \rightarrow \mathbb{R} \) such that
+</p>
+\[ 
+\begin{cases}
+-\nabla \cdot ( \mu \nabla u) = f  &\text{ in } \Omega  \\
+au + (b \mu  \nabla u)\cdot \textbf{n} = r &\text{ on } \Gamma_R,
+\end{cases}
+ \]
+where \(\mu\) is the diffusion coefficient, \(a,b\) are Robin coefficients, \(f,r\) are source terms, and \(\textbf{n} \) is the normal vector to \(\Gamma_R \).
+
+<p style="text-align: justify; text-justify: inter-word;">
+Our
+resulting LDG discretization has several favorable properties: it is optimally high-order accurate in the maximum norm 
+and the final linear system
+is symmetric positive definite.  Moreover, the LDG discretization is amenable to straightforward and 
+fast <a href = "https://doi.org/10.1137/18M1206357"> multigrid solvers</a>.
+
+These LDG methods are used with the 
+<a href = "https://doi.org/10.1016/j.jcp.2017.04.076" >Implicit Mesh DG</a> framework to apply Robin boundary conditions along curved interfaces
+ defined implicitly via the 
+<a href = "https://math.berkeley.edu/~sethian/2006/Publications/Book/2006/book_1999.html">level set method</a>,
+which are in turn used to
+capture the effects of evaporation within multi-layer coating flow problems, to high-order accuracy.
+Fig. 1 illustrates the LDG method's convergence rates and multigrid performance in a challenging case of variable diffusion and Robin coefficients spanning several
+	orders of magnitude on a curved implicitly-defined domain.
+	<div align="center" >
+		<img src="/images/RobinConverg.png" alt="Robin" style="width:70%" >
+		<p style="max-width:900px;"><small>Fig. 1 - Convergence rates and multigrid performance for the Poisson problem with Robin boundary conditions 
+			on an implicitly-defined curved domain (pictured left),
+			 with variable \(\mu,a,b\) spanning several orders of
+			magnitude.</small><p>
+	</div>
+
+</p>
+
+
+
+
+
+
+<p style="text-align: justify; text-justify: inter-word;">
+Additionally, I developed high-order accurate LDG methods for Poisson problems with Robin jump conditions
+ as well as for Stokes problems with Navier-slip boundary conditions. These can be found in my thesis.  
+ </p>
+
+ <p style="text-align: justify; text-justify: inter-word;"> <b>Reference</b> 
+ L. P. Corcos, <i>A Hybrid Finite Difference Level Set–Implicit Mesh 
+	Discontinuous Galerkin Method for Multi-Layer Coating Flow Problems</i>, 
+	December 2023, University of California Berkeley. 
+	<a href= "https://www.proquest.com/openview/c3a45544f62d7185537acfaa0a4c7a4d/1?pq-origsite=gscholar&cbl=18750&diss=y">Link</a>&nbsp 
+	<a href="http://lpcorcos.github.io/publications/CorcosPhdThesis.pdf"> <i class="fa-solid fa-file-pdf"></i>PDF</a>
+</p>
+
+
+
+
+
+
+
+
+<h2>Multi-Layer Coating Flows</h3>
+
+
+
+
+
+
+
+<p style="text-align: justify; text-justify: inter-word;"> <b>Reference</b> 
+	L. P. Corcos, R. I. Saye, and J. A. Sethian, 
+  <i>A hybrid finite difference level set–implicit mesh discontinuous Galerkin method 
+  for multi-layer coating flows</i>, Journal of Computational Physics, 507, 112960 (2024).
+  <a href= "https://doi.org/10.1016/j.jcp.2024.112960">Link</a> &nbsp
+  <a href="http://lpcorcos.github.io/publications/1-s2.0-S0021999124002092-main.pdf"> <i class="fa-solid fa-file-pdf"></i> PDF</a>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Cavity Quantum Electrodynmaics (QED)</h2>
+
+
+
+
+
+<p style="text-align: justify; text-justify: inter-word;"> <b>Reference</b>
+	AD Cimmarusti, Z Yan, BD Patterson, LP Corcos, LA Orozco, S Deffner,
+		<i>Environment-assisted speed-up of the field evolution in cavity quantum electrodynamics</i>,
+		Physical review letters 114 (23), 233602 (2015).
+		<a href= "https://doi.org/10.1103/PhysRevLett.114.233602">Link</a> &nbsp
+		<a href="http://lpcorcos.github.io/publications/PhysRevLett.114.233602.pdf"> <i class="fa-solid fa-file-pdf"></i> PDF</a>
+</p>
+
+
+
+
+
+
+
+
+
+
+/
+
+
+
+
+
+
+
+
