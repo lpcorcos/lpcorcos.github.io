@@ -1,6 +1,7 @@
 ---
 title: 'The Rise and Fall of Nvidia'
 date: 2025-03-30
+author: Luke P. Corcos
 permalink: /stocks/rise_fall_nvidia
 tags:
   - stocks
@@ -8,6 +9,10 @@ tags:
   - Nvidia
 
 pinned: false
+
+opengraph:
+  title: 'The Rise and Fall of Nvidia'
+  image:  /images/nvda_nine_month_daily.png
 
 ---
 
