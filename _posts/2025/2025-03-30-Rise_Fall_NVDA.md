@@ -3,18 +3,18 @@ title: 'The Rise and Fall of Nvidia'
 date: 2025-03-30
 author: Luke P. Corcos
 permalink: /stocks/rise_fall_nvidia
+image: http://lpcorcos.github.io/images/nvda_nine_month_daily.png
+
 tags:
-  - stocks
-  - short
+  - Stocks
+  - Short
   - Nvidia
 
 pinned: false
 
-opengraph:
-  title: 'The Rise and Fall of Nvidia'
-  image:  /images/nvda_nine_month_daily.png
 
 ---
+
 
 I'm shorting Nvidia! Find out why I'm bearish on the market's biggest stock.
 <div align="center">
