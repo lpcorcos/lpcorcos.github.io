@@ -4,6 +4,7 @@ date: 2025-03-30
 author: Luke P. Corcos
 permalink: /stocks/rise_fall_nvidia
 image: http://lpcorcos.github.io/images/nvda_nine_month_daily.png
+description: Nvidia short
 
 tags:
   - Stocks

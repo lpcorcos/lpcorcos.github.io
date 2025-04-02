@@ -2,6 +2,7 @@
 title: 'Opening an IRA and investing in the S&P 500'
 date: 2025-02-24
 permalink: /stocks/open_an_IRA
+description: Open IRA Invest S&P 500
 tags:
   - S&P 500
   - IRA
