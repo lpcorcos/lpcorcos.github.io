@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: "About me"
+author: Luke P. Corcos
+
 author_profile: true
 redirect_from: 
   - /about/

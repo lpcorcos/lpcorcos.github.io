@@ -28,8 +28,12 @@ I'm shorting Nvidia! Find out why I'm bearish on the market's biggest stock.
 
 
 <div style="text-align: center">
-<iframe id="embedded_file" src="/stock_posts/The Rise and Fall of Nvidia.pdf" width="850" height="1000"></iframe>
+<iframe id="embedded_file" src="https://docs.google.com/gview?embedded=true&url=http://lpcorcos.github.io/stock_posts/The_Rise_and_Fall_of_Nvidia.pdf" width="850" height="1000"></iframe>
 </div>
+
+
+<a href="/stock_posts/The_Rise_and_Fall_of_Nvidia.pdf" target="_blank">View and Print Document</a>
+
 
 
 <!--
