@@ -17,9 +17,9 @@ This post will teach you how to open a Roth IRA and invest in the S&P 500, an im
 This may be my most important post!
 
 <div style="text-align: center">
-<iframe src="https://docs.google.com/gview?embedded=true&url=http://lpcorcos.github.io/stock_posts/Opening_an_IRA_and_investing_in_the_S&P500.pdf" width="850" height="1000"></iframe>
+<iframe id="embedded_file" src="https://docs.google.com/gview?embedded=true&url=http://lpcorcos.github.io/stock_posts/Opening_an_IRA_and_investing_in_the_SP500.pdf" width="850" height="1000"></iframe>
 </div>
 
-<a href="/stock_posts/Opening_an_IRA_and_investing_in_the_S&P500.pdf" target="_blank">View and Print Document</a>
+<a href="/stock_posts/Opening_an_IRA_and_investing_in_the_SP500.pdf" target="_blank">View and Print Document</a>
 
 
