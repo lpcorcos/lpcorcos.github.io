@@ -7,19 +7,24 @@ author_profile: true
 
 <p>I am an active stock trader and have independently researched the market since 2016.
 <br>
-My AAR since 2020 is 32%. </p>
+My compound average growth rate (CAGR) since 2020 is 32%. </p>
+Follow me on instagram <a href="https://instagram.com/the_stockdude">@the_stockdude</a>.
 
 {% include base_path %}
+
+<hr>
 
 {% for post in site.posts %}
   {% if post.pinned%} 
   {% include archive-single.html %}
+  <hr>
   {% endif%}
 {% endfor %}
 
 {% for post in site.posts %}
   {% unless post.pinned%} 
   {% include archive-single.html %}
+  <hr>
   {% endunless%}
 {% endfor %}
 

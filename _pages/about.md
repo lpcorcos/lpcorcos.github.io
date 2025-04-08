@@ -12,7 +12,7 @@ redirect_from:
 
 <p style="text-align: justify">
 I am an active stock trader and have independently researched the market since 2016. 
-My AAR since 2020 is 32%. 
+My compound average growth rate (CAGR) since 2020 is 32%. 
 You can follow my stock and crypto ideas on my <a href="/stocks/">blog</a>.
 </p>
 
