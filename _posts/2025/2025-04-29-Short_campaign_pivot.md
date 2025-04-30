@@ -44,7 +44,7 @@ Selling short is very difficult. There is infinite loss potential, and the marke
  There are still many reasons to be bearish on the market. Tariffs are here to stay, Trump wants them, particularly on China. As seen in the chart above, Apple fell particularly hard (-25%) when tariffs were announced due to their heavy dependence on Chinese manufacturing. You can see on April 7th that NVDA rallied on heavy volume and AAPL did not. (I should have taken my profits right then.) AAPL's rally stalled on the 14th and made a small cup with a suspect handle. The handle is currently drifting upward on diminishing buying volume, wedging along its lows towards its 50-day moving average. In theory, this is bearish price action. Also note that Apple has not made it back to its pre-tariff price point.
 
 
- I still have some of my NVDA short position, and today I entered a short position on Apple. Apple has earnings on Thursday May 1st. I expect Apple will fall and undercut its recent low of $190. I will cover here. We could also see May retrace the price action of April. I will continue to post updates on my short campaign and give my general thoughts on the market.
+ I still have some of my NVDA short position, and today I entered a short position on Apple. I expect Apple will fall and undercut its recent low of $190. I will cover here. We could also see May retrace the price action of April.  Apple has earnings on Thursday May 1st. I will continue to post updates on my short campaign and give my general thoughts on the market.
 
 <p>
 Remember... "No hesitation, no surrender" - Frank Reynolds.
