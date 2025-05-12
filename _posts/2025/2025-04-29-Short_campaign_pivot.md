@@ -28,7 +28,7 @@ pinned: false
 <br>
 The market is a bumpy ride. In my <a href="https://lpcorcos.github.io/stocks/rise_fall_nvidia">previous post</a> on March 30, 2025, I described my short thesis against the GPU maker Nvidia. On April 2nd, President Donald Trump announced his liberation day tariffs and I was well on my way to profits. Substantial tariffs were placed on every country in the world and the stock market was in free fall, the S&P 500 sunk a stunning 15% in just three days. NVDA fell 21% from $110 to $87 (it did not stay at that price for long). I had great profits sitting in my lap, but I hesitated, I did not take them. 
 
-I had greedily expected the market to fall more. A trade war with China was all but announced and the US was isolating its allies. In my post, I had predicted Nvidia to $80, so why not wait? Why not prove I'm a stock market genius :p?  Then on April 9th, Trump tweeted a 90-day pause on tariffs and the market posted a face-ripping rally, with the S&P 500 gaining 9.5%. NVDA rose 17% to $115, above my short point. I had underappreciated the volatility, and was run in. 
+I had greedily expected the market to fall more. A trade war with China was all but announced and the US was isolating its allies. In my post, I had predicted Nvidia to $80, so why not wait? Then on April 9th, Trump tweeted a 90-day pause on tariffs and the market posted a face-ripping rally, with the S&P 500 gaining 9.5%. NVDA rose 17% to $115, above my short point. I had underappreciated the volatility, and was run in. 
 
 
 <div align="center">
