@@ -27,6 +27,9 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
+      {% if post.superpinned %} 
+      <i class="fas fa-map-pin"></i>
+      {% endif%} 
       {% if post.pinned %} 
       <i class="fas fa-map-pin"></i>
       {% endif%}

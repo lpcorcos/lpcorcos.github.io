@@ -247,6 +247,7 @@ defaults:
       share: true
       related: false
       pinned: false
+      superpinned: false
   # _pages
   - scope:
       path: ""

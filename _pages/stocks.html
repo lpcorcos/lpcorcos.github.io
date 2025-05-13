@@ -15,6 +15,13 @@ Follow me on instagram <a href="https://instagram.com/the_stockdude">@the_stockd
 <hr>
 
 {% for post in site.posts %}
+  {% if post.superpinned%} 
+  {% include archive-single.html %}
+  <hr>
+  {% endif%}
+{% endfor %}
+
+{% for post in site.posts %}
   {% if post.pinned%} 
   {% include archive-single.html %}
   <hr>
@@ -22,11 +29,20 @@ Follow me on instagram <a href="https://instagram.com/the_stockdude">@the_stockd
 {% endfor %}
 
 {% for post in site.posts %}
-  {% unless post.pinned%} 
+  {% unless post.pinned or post.superpinned%} 
   {% include archive-single.html %}
   <hr>
   {% endunless%}
 {% endfor %}
+
+
+<a href="/disclaimer/">Disclaimer</a>: Securities trading carries a high degree of risk and is not suitable for all investors. People can and do lose
+money in the stock market. Past performance does not indicate future results. I take no responsibility for possible
+losses or other damage. The information here is for informational and educational purposes only and should not be
+construed as an offer, recommendation, solicitation, or rating to buy or sell securities.
+
+
+
 
 <!-- 
 
