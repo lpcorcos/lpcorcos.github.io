@@ -18,7 +18,7 @@ You can follow my stock and crypto ideas on my <a href="/stocks/">blog</a>.
 
 <p style="text-align: justify">
 I received my Ph.D. in <a href="https://math.berkeley.edu/home">Applied Mathematics</a> from the University of California Berkeley. During that time, 
-I was a Graduate Student Researcher (GSR) in the <a href="https://crd.lbl.gov/divisions/amcr/mathematics-dept/math/">Mathematics Group</a> at the Lawrence Berkeley National Laboratory. I have a B.Sc in <a href="https://www-math.umd.edu/">Mathematics</a> and <a href="https://umdphysics.umd.edu/">Physics</a> from the University of Maryland College Park, with High Honors in physics.
+I was a Graduate Student Researcher (GSR) in the <a href="https://crd.lbl.gov/divisions/amcr/mathematics-dept/math/">Mathematics Group</a> at the Lawrence Berkeley National Laboratory. I have a B.Sc. in <a href="https://www-math.umd.edu/">Mathematics</a> and <a href="https://umdphysics.umd.edu/">Physics</a> from the University of Maryland College Park, with High Honors in physics.
 </p>
 
 <p style="text-align: justify">
