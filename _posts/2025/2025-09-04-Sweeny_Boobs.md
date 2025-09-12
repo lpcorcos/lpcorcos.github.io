@@ -33,3 +33,11 @@ The chart also demonstrates strength; a cup and handle can be seen from May thro
 P.S. I do apologize for not recognizing this before earnings and a 38% move. 
 
 
+<br>
+(Update 9/10/25) $5K on Sydney Sweeney's big tits :p
+
+<div align="center">
+		<img src="/images/stocks/Sweeney/position.jpg" alt="sweeney position" style="width:75%">
+</div>
+<br>
+
