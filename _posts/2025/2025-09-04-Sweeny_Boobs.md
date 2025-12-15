@@ -1,8 +1,8 @@
 ---
-title: "Did Sydney Sweeney's Big Boobs Just Start a Short Squeeze?"
+title: "Did Sydney Sweeney Just Start a Short Squeeze?"
 date: 2025-09-04
 author: Luke P. Corcos
-permalink: /stocks/sweeney_boobs
+permalink: /stocks/sweeney
 
 description: Sydney Sweeney may have started a short squeeze
 
@@ -32,12 +32,4 @@ The chart also demonstrates strength; a cup and handle can be seen from May thro
 
 P.S. I do apologize for not recognizing this before earnings and a 38% move. 
 
-
-<br>
-(Update 9/10/25) $5K on Sydney Sweeney's big tits :p
-
-<div align="center">
-		<img src="/images/stocks/Sweeney/position.jpg" alt="sweeney position" style="width:75%">
-</div>
-<br>
 
