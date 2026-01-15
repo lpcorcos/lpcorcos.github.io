@@ -13,7 +13,7 @@ redirect_from:
 <p style="text-align: justify">
 I'm an active stock trader and have independently researched the market since 2016. 
 My compound average growth rate (CAGR) since 2020 is 32%. 
-You can follow my stock and crypto ideas on my <a href="/stocks/">blog</a>.
+You can follow me on my <a href="/stocks/"> stock blog</a> or on Instagram <a href="https://instagram.com/the_stockdude">@the_stockdude</a>.
 </p>
 
 <p style="text-align: justify">
@@ -22,7 +22,7 @@ I was a Graduate Student Researcher (GSR) in the <a href="https://crd.lbl.gov/di
 </p>
 
 <p style="text-align: justify">
-My research interests are numerical partial differential equations (PDEs) and scientific computing, with a focus on multi-physics interface problems. My thesis work involved developing high-order accurate numerical methods for interfacial fluid dynamics coupled to heat and mass transfer processes.
+My research interests are numerical partial differential equations (PDEs) and scientific computing, with a focus on multi-physics interface problems and numerical linear algebra. My thesis work involved developing high-order accurate numerical methods for interfacial fluid dynamics coupled to heat and mass transfer processes.
 </p>
 
 

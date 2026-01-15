@@ -33,7 +33,7 @@ I had greedily expected the market to fall more. A trade war with China was all 
 
 
 <div align="center">
-		<img src="/images/stocks/NVDA_2025-4-29-Daily.png" alt="nvda" style="width:75%">
+		<img src="/images/stocks/2025/NVDA_2025-4-29-Daily.png" alt="nvda" style="width:75%">
 						<br>
 		<small>A daily chart of Nvidia.</small>
 </div>
@@ -51,7 +51,7 @@ Selling short is very difficult. There is infinite loss potential, and the marke
 Remember... "No hesitation, no surrender" - Frank Reynolds.
 
 <div align="center">
-		<img src="/images/stocks/Frank-noHesitation.png" alt="nvda" style="width:75%">
+		<img src="/images/stocks/2025/Frank-noHesitation.png" alt="nvda" style="width:75%">
 </div>
 
 </p>
