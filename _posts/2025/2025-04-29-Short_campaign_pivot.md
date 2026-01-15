@@ -20,7 +20,7 @@ pinned: false
 
 "Hesitation is fatal; once an action is begun, it must be followed through with the utmost exertion of the will." - Napoleon Bonaparte.
 <div align="center">
-		<img src="/images/stocks/Apple_2025-4-29-Daily-Annotated.png" alt="aapl" style="width:75%">
+		<img src="/images/stocks/2025/Apple_2025-4-29-Daily-Annotated.png" alt="aapl" style="width:75%">
 		<br>
 		<small>A daily chart of Apple Inc. Chart courtesy of StockCharts.com</small>
 </div>
