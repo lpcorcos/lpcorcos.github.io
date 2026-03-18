@@ -22,8 +22,8 @@ I was a Graduate Student Researcher (GSR) in the <a href="https://crd.lbl.gov/di
 </p>
 
 <p style="text-align: justify">
-My research interests are numerical partial differential equations (PDEs) and scientific computing, with a focus on multi-physics interface problems and numerical linear algebra. My thesis work involved developing high-order accurate numerical methods for interfacial fluid dynamics coupled to heat and mass transfer processes.
+My research interests are numerical partial differential equations (PDEs), numerical linear algebra, and scientific computing, with an emphasis on multi-physics interface problems. My thesis work involved developing high-order accurate numerical methods for interfacial fluid dynamics coupled to heat and mass transfer processes.
 </p>
 
 
-
+<p style="margin-bottom:10cm;"></p>
