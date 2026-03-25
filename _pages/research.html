@@ -8,20 +8,84 @@ description: Luke P. Corcos research
 
 <p style="text-align: justify; text-justify: inter-word;">
 Broadly, my research interests include mathematical modeling and scientific computing. 
-During my Ph.D., I specialized in numerical partial differential equations (PDEs), and 
-developed high-order accurate algorithms for multi-physics interface problems. 
+During my Ph.D., I specialized in numerical partial differential equations (PDEs) and 
+developed tailored high-order accurate algorithms for multi-physics interface problems. 
+I also study numerical linear algebra and recently released BlockSp &ndash; 
+A templated C++ library for block sparse linear algebra.
 </p>
+
+<p style="text-align: justify; text-justify: inter-word;">
+Below is a video of a multi-layer "matter cascade". Here, three distinct fluids layered on top of each other 
+undergo an effect known as Interfacial Turbulence,
+i.e., the spontaneous agitation of an interface between two unequilibrated liquids. 
+Here the matter transfers upward from the bottom layer, is captured by the next interfaces, and
+is driven in an hydrodynamically unstable manner by the <a href="https://en.wikipedia.org/wiki/Marangoni_effect">Marangoni effect</a>.
+
+</p>
+
+
+
+
 
 <div align="center" >
 <video width="900" height="360" controls>
 	<source src="/images/research/3LayMC.mp4" type="video/mp4">
 </video>
+<br>
+An interfacially turbulent multi-layer matter cascade.
 </div>
 
 
-<h2>Discontinuous Galerkin Methods</h3>
+<h2>Multi-Layer Coating Flows</h2>
+
 <p style="text-align: justify; text-justify: inter-word;">
-As part of my work on multi-physics multi-layer coating flows (see below), 
+The above is an example of a multi-layer coating, a complex multi-physics problem driven by
+ multi-phase Marangoni interfacial fluid flow and the transport, mixing, 
+and evaporation of multiple dissolved species.
+We developed a mathematical model and numerical framework for this challenging problem.
+The hybrid algorithm combines finite difference level set methods and high-order accurate sharp
+interface implicit mesh discontinuous Galerkin methods; the algorithm is high-order accurate in space 
+and first order in time.
+</p>
+
+<p style="text-align: justify; text-justify: inter-word;">
+The 
+framework is applicable to an arbitrary number of layers and dissolved species. In our paper, we apply 
+it in a variety of settings, including multi-solvent evaporative paint dynamics, the flow and 
+leveling of multi-layer automobile paint coatings in both 2D and 3D, and 
+interfacial turbulence within a multi-layer matter cascade. Our results reproduce several 
+phenomena observed in experiment, such as the formation of Marangoni plumes and Bénard 
+cells. These can be seen in the images below. The work was informed by experiments from <a href="https://www.ppg.com/en-US"> PPG Industries Inc.</a> as part of our collaboration
+under the Department of Energy's <a href="https://www.energy.gov/cmei/ammto/high-performance-computing-advanced-manufacturing"> <i>HPC4Mfg</i></a> project.
+</p>
+
+
+<p style="text-align: justify; text-justify: inter-word;">
+	<b>Reference</b> 
+	L. P. Corcos, R. I. Saye, and J. A. Sethian, 
+  <i>A hybrid finite difference level set–implicit mesh discontinuous Galerkin method 
+  for multi-layer coating flows</i>, Journal of Computational Physics, 507, 112960 (2024).
+  <a href= "https://doi.org/10.1016/j.jcp.2024.112960">Link</a> &nbsp
+  <a href="http://lpcorcos.github.io/publications/1-s2.0-S0021999124002092-main.pdf"> <i class="fa-solid fa-file-pdf"></i> PDF</a>
+</p>
+
+	<div align="center" >
+		<img src="/images/research/maraPlumes.png" alt="Robin" style="width:70%" >
+		<p style="max-width:900px;">A side view of the evolution of the solvent mass concentration 
+			profile illustrating the formation and merger of Marangoni plumes/roll cells within a single paint film.
+			The top interface is a free evaporative surface and the bottom a solid substrate.<p>
+	</div>
+
+	<div align="center" >
+		<img src="/images/research/3D-Dm4e-12.PNG" alt="Robin" style="width:70%" >
+		<p style="max-width:900px;">The hexagonal-shaped Bénard cells and plumes formed by Marangoni-driven flow in 3D.<p>
+	</div>
+
+
+
+<h2>Discontinuous Galerkin Methods</h2>
+<p style="text-align: justify; text-justify: inter-word;">
+As part of my work on multi-physics multi-layer coating flows, 
 I developed local discontinuous Galerkin methods (LDG) for Poisson problems with Robin boundary conditions. 
 For this, consider a \(d\)-dimensional domain \( \Omega \subset \mathbb{R}^d \), with Robin boundary 
 conditions applied along the boundary \( \Gamma_R \), we wish to find \(u:\Omega \rightarrow \mathbb{R} \) such that
@@ -47,22 +111,10 @@ These LDG methods are used with the
 <a href = "https://math.berkeley.edu/~sethian/2006/Publications/Book/2006/book_1999.html">level set method</a>,
 which are in turn used to
 capture the effects of evaporation within multi-layer coating flow problems, to high-order accuracy.
-Fig. 1 illustrates the LDG method's convergence rates and multigrid performance in a challenging case of variable diffusion and Robin coefficients spanning several
+The figure illustrates the LDG method's convergence rates and multigrid performance in a challenging case of variable diffusion and Robin coefficients spanning several
 	orders of magnitude on a curved implicitly-defined domain.
-	<div align="center" >
-		<img src="/images/research/RobinConverg.png" alt="Robin" style="width:70%" >
-		<p style="max-width:900px;"><small>Fig. 1 - Convergence rates and multigrid performance for the Poisson problem with Robin boundary conditions 
-			on an implicitly-defined curved domain (pictured left),
-			 with variable \(\mu,a,b\) spanning several orders of
-			magnitude.</small><p>
-	</div>
 
 </p>
-
-
-
-
-
 
 <p style="text-align: justify; text-justify: inter-word;">
 Additionally, I developed high-order accurate LDG methods for Poisson problems with Robin jump conditions
@@ -78,45 +130,25 @@ Additionally, I developed high-order accurate LDG methods for Poisson problems w
 </p>
 
 
+	<div align="center" >
+		<img src="/images/research/RobinConverg.png" alt="Robin" style="width:70%" >
+		<p style="max-width:900px;">Convergence rates and multigrid performance for the Poisson problem with Robin boundary conditions 
+			on an implicitly-defined curved domain (pictured left),
+			 with variable \(\mu,a,b\) spanning several orders of
+			magnitude.<p>
+	</div>
 
 
 
 
+<h2>Cavity Quantum Electrodynamics (QED)</h2>
 
-
-<h2>Multi-Layer Coating Flows</h3>
-
-
-
-
-
-
-
-<p style="text-align: justify; text-justify: inter-word;"> <b>Reference</b> 
-	L. P. Corcos, R. I. Saye, and J. A. Sethian, 
-  <i>A hybrid finite difference level set–implicit mesh discontinuous Galerkin method 
-  for multi-layer coating flows</i>, Journal of Computational Physics, 507, 112960 (2024).
-  <a href= "https://doi.org/10.1016/j.jcp.2024.112960">Link</a> &nbsp
-  <a href="http://lpcorcos.github.io/publications/1-s2.0-S0021999124002092-main.pdf"> <i class="fa-solid fa-file-pdf"></i> PDF</a>
-</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h2>Cavity Quantum Electrodynmaics (QED)</h2>
-
-
-
-
+As an undergraduate researcher at the University of Maryland, College Park, 
+I worked in the Cavity Quantum Electrodynamics (QED) laboratory of  
+<a href = "https://www.physics.umd.edu/rgroups/amo/orozco/index.html"> Professor Luis Orozco</a> and was 
+a member of the <a href="https://jqi.umd.edu/">Joint Quantum Institute </a> (JQI).
+In that work, we measured the quantum speed-up of the state evolution in an optical cavity QED
+system and demonstrated non-Markovian behavior.
 
 <p style="text-align: justify; text-justify: inter-word;"> <b>Reference</b>
 	AD Cimmarusti, Z Yan, BD Patterson, LP Corcos, LA Orozco, S Deffner,
@@ -125,6 +157,14 @@ Additionally, I developed high-order accurate LDG methods for Poisson problems w
 		<a href= "https://doi.org/10.1103/PhysRevLett.114.233602">Link</a> &nbsp
 		<a href="http://lpcorcos.github.io/publications/PhysRevLett.114.233602.pdf"> <i class="fa-solid fa-file-pdf"></i> PDF</a>
 </p>
+
+<div align="center" >
+		<img src="/images/research/cavity QED.jpg" alt="Cavity" style="width:50%" >
+		<p style="max-width:900px;"> An example of a Cavity QED system.<p>
+	</div>
+
+
+
 
 
 
