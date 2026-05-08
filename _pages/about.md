@@ -12,7 +12,7 @@ redirect_from:
 
 <p style="text-align: justify">
 I'm an active stock trader and have independently researched the market since 2016. 
-My compound average growth rate (CAGR) since 2020 is 32%. 
+My compound average growth rate (CAGR) since 2020 is 40%. 
 You can follow me on my <a href="/stocks/"> stock blog</a> or on Instagram <a href="https://instagram.com/the_stockdude">@the_stockdude</a>.
 </p>
 
